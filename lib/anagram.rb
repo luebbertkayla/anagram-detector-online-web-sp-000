@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(array_of_words)
-    array_of_words.each do |individual_word|
+    array_of_words.select do |individual_word|
       
       
       
