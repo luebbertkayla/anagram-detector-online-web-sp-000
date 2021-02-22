@@ -11,6 +11,7 @@ class Anagram
       @word.split("").sort == individual_word.split("").sort
     end
   end
+end
       
       
       
